@@ -88,6 +88,7 @@ ${related.map(p=>`
 		return renderAmp({
 			title:post.title,
 			description:desc,
+			kategori: post.kategori,
 			canonical:canonical("/"+post.slug),
 			amp:amphtml("/"+post.slug),
 			image:ogImage(post.slug),
