@@ -76,6 +76,7 @@ ${cardImage(ogImage(p.slug),p.title)}
 				return layout({
 					title:post.title,
 					description:desc,
+					kategori:post.kategori,
 					canonical:url,
 					image:og,
 					schema:seo({
